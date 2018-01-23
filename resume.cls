@@ -21,6 +21,7 @@
 \definecolor{body-text-emphasis}{HTML}{111111}
 \definecolor{body-text-bold}{HTML}{050505}
 \definecolor{heading}{HTML}{4A4A4A}
+\definecolor{headings}{HTML}{6A6A6A}
 \definecolor{descript}{HTML}{444444}
 \definecolor{position}{HTML}{666666}
 \definecolor{subheading}{HTML}{464646}
@@ -45,7 +46,8 @@
       \begin{tabular}[x]{@{}r@{}}
         \\
         {\fontsize{11pt}{10cm}\selectfont #4}\\
-        {\fontsize{11pt}{10cm}\selectfont #5}
+        {\fontsize{11pt}{10cm}\selectfont #5}\\
+        {\fontsize{11pt}{10cm}\selectfont #6}
       \end{tabular} 
     \end{tabularx}
 }
@@ -65,6 +67,9 @@
 
 % Body command
 \newcommand{\body}[1]{\color{body-text}\raggedright\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12.3pt}{14pt} \selectfont {#1\\} \normalfont}
+
+% Location command
+\newcommand{\location}[1]{\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
 % Technologies command
 \newcommand{\technologies}[1]{\vspace{0.5mm}\color{heading}
