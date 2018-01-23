@@ -6,9 +6,9 @@
 \begin{picture}(0,0)%
 %Do This Stuff Last
 \put(23, -34.5){\makebox[\linewidth]{\rule{15.7cm}{0.4pt}}}%
-\put(23,-94){\makebox[\linewidth]{\rule{15.7cm}{0.4pt}}}%
-\put(19, -168){\makebox[\linewidth]{\rule{16cm}{0.4pt}}}%
-\put(13,-206){\makebox[\linewidth]{\rule{17.3cm}{0.4pt}}}%
+\put(21, -112){\makebox[\linewidth]{\rule{15.3cm}{0.4pt}}}%
+\put(59, -193.5){\makebox[\linewidth]{\rule{7.5cm}{0.4pt}}}%
+\put(-33,-193.5){\makebox[\linewidth]{\rule{5.7cm}{0.4pt}}}%
 \end{picture}\hfill}
 
 \begin{document}
@@ -17,7 +17,7 @@
 %     HEADER
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Christian}{ Kuss}
-{\href{https://christiankuss.com}{https://christiankuss.com}}
+{\href{http://christiankuss.com}{http://christiankuss.com}}
 {\href{mailto:christianmkuss@gmail.com}{christianmkuss@gmail.com }\faEnvelope}
 {\href{http://github.com/christianmkuss}{github.com/christianmkuss }\faGithubSquare}
 \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
@@ -34,7 +34,10 @@
 \vspace{0.5 mm}
 \hspace{5 mm}\educationdescript{Expected Graduation Date: \textcolor{education}{May 2022}}
 \body{
-\hspace{5 mm}\textcolor{body-text-bold}{Activities:} NU Institute of Electrical and Electronics Engineers | Running Club
+\hspace{5 mm}\textcolor{body-text-bold}{Relevant Courses:} Calculus 2 | Discrete Structures | Cornerstone of Engineering | Differential EQ
+}
+\body{
+\hspace{5 mm}\textcolor{body-text-bold}{Activities:} NU IEEE | Running Club | AIAA
 }
 \vspace{3mm}
 \hspace{0mm}\runsubsection{Central Kitsap High School}\\
@@ -45,74 +48,103 @@
 \hspace{5 mm}\textcolor{body-text-bold}{Activities:} Member of Honor Society | Member of Key Club | ASB Senior Justice | Varsity Track |\\ \hspace{25mm}Varsity Cross Country
 }
 
+\vspace{3mm}
+\hspace{0mm}\runsubsection{Ledyard High School}\\
+\vspace{0.5 mm}
+\hspace{5 mm}\educationdescript{Attended from \textcolor{education}{August 2014} to \textcolor{education}{June 2016}}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experience}
 
+\vspace{1.2mm}
+\runsubsection{Northeastern ECE Department}
+\position{| Computer Systems Assistant}
+\hfill\descript{Jan '18 - April '18}
+\begin{tightemize}
+\body{
+\item Reconfiguring and setting up computers \item General computer maintenance and assistance}
+\end{tightemize}
+
 \runsubsection{Service Learning for Engineering}
 \position{| Volunteer}
-\hfill\descript{Sep '17 - May '18}
+\hfill\descript{Sep '17 - April '18}
 \begin{tightemize} \item Teaching fifth grade children about robotics and engineering
 \end{tightemize}
+
 \vspace{1.2mm}
 \runsubsection{Seabeck Conference Center}
 \position{| Server }
 \hfill\descript{June '17 - Aug '17}
 \begin{tightemize} \item Preparing and serving food \item Janitorial and customer service responsibilities
 \end{tightemize}
+
 \vspace{1.2mm}
 \runsubsection{Cascade Specialty Pharmacy}
-\position{| Landscaping }
+\position{| Landscaping}
 \hfill\descript{Aug '16 - July '17}
 \begin{tightemize}
 \body{
-\item Mowing/weed whacking \item Power washing \item Laying irrigation lines \item Trimming bushes
-}
+\item Mowing/weed whacking \item Power washing} 
 \end{tightemize}
 \vspace{0.5 mm}
+
+\renewcommand{\arraystretch}{0}
+\begin{tabularx}{\textwidth}{@{}XXl@{}@{}r@{}}
+\section{Projects} & \section{Skills}\\
+\vspace{-0.5mm}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Projects}
-
-\vspace{-0.5 mm}
 \runsubsection{Sumo Robot}\\
+\vspace{0.5mm}
+\location{}
 \technologies{C, Arduino, Sparkfun}
 \begin{tightemize}
 \body{
 \item Developed and built a Sumo Robot out of \textcolor{body-text-emphasis}{Sparkfun} pieces in union with custom built parts designed in \textcolor{body-text-emphasis}{AutoCAD}
-\item Coded in \textcolor{body-text-emphasis}{Arduino} 
 }
 \end{tightemize}
 
+\vspace{1mm}
+\runsubsection{Alexa Skill}\\
+\location{}
+\technologies{Java, Maven, AWS}
+\begin{tightemize}
+\body{
+\item Designed a text-based adventure game written in \textcolor{body-text-emphasis}{Java} that is deployed as an \textcolor{body-text-emphasis}{Alexa Skill}
+\item Developed in AP Computer Science class as a final project
+}
+\end{tightemize}
+
+&
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Skills
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Skills}
-
-\vspace{-0.5 mm}
-\runsubsection{Programming:} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-3mm}
+\runsubsection{Programming:}
+\vspace{0.5mm}
+\location{}
 \begin{tightemize}
-\vspace{0.75mm}
 \body{
-\item Python, C++, Java, MATLAB, Ruby on Rails
+\item Python, C++, Java, MATLAB, \LaTeX
 \item Familiar with C, HTML, CSS
 }
 \end{tightemize}
 \vspace{1mm}
-\runsubsection{Computer:} 
+\runsubsection{Computer:}
 \begin{tightemize}
-\vspace{0.75mm}
+\vspace{0.5mm}
 \body{
 \item Microsoft Office Suite
-\item Git
-\item Solidworks
-\item AutoCAD
+\item Solidworks, AutoCAD, Inventor
 \item 3DSMax
-\item Inventor
+\item Git
 }
 \end{tightemize}
+\end{tabularx}
 \end{document}
