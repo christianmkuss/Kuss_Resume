@@ -69,7 +69,7 @@
 \newcommand{\body}[1]{\color{body-text}\raggedright\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12.3pt}{14pt} \selectfont {#1\\} \normalfont}
 
 % Location command
-\newcommand{\location}[1]{\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+\newcommand{\location}[1]{\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Italic} \fontsize{12pt}{12pt}\selectfont {#1} \normalfont}
 
 % Technologies command
 \newcommand{\technologies}[1]{\vspace{0.5mm}\color{heading}
