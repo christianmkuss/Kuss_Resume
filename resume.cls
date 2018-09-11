@@ -34,12 +34,12 @@
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
 
 % Name command
-\newcommand{\namesection}[6]{
+\newcommand{\namesection}[7]{
   \begin{tabularx}{\textwidth}{Xr}
        \begin{tabular}[x]{@{}l@{}}
           \hspace{-8.7mm}{\fontspec[Path = fonts/lato/]{Lato-Hai}\fontsize{35pt}{10cm}\selectfont #1}
           {\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{35pt}{10cm}\selectfont #2}\\
-          \hspace{-7.26mm}{\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{20pt}{10cm}\selectfont #3}
+          \hspace{-7.26mm}{\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{17pt}{10cm}\selectfont #3}
           \vspace{1.5mm}
       \end{tabular}
     &
@@ -47,7 +47,8 @@
         \\
         {\fontsize{11pt}{10cm}\selectfont #4}\\
         {\fontsize{11pt}{10cm}\selectfont #5}\\
-        {\fontsize{11pt}{10cm}\selectfont #6}
+        {\fontsize{11pt}{10cm}\selectfont #6}\\
+        {\fontsize{11pt}{10cm}\selectfont #7}
       \end{tabular} 
     \end{tabularx}
 }
@@ -66,7 +67,7 @@
 \fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{14pt}{14pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
 % Body command
-\newcommand{\body}[1]{\color{body-text}\raggedright\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12.3pt}{14pt} \selectfont {#1\\} \normalfont}
+\newcommand{\body}[1]{\color{body-text}\raggedright\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt} \selectfont {#1\\} \normalfont}
 
 % Location command
 \newcommand{\location}[1]{\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Italic} \fontsize{12pt}{12pt}\selectfont {#1} \normalfont}
