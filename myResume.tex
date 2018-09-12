@@ -7,8 +7,8 @@
 %Do This Stuff Last
 \put(23, -37.5){\makebox[\linewidth]{\rule{15.7cm}{0.4pt}}}%
 \put(23, -100){\makebox[\linewidth]{\rule{15.7cm}{0.4pt}}}%
-\put(60, -209.7){\makebox[\linewidth]{\rule{7.3cm}{0.4pt}}}%
-\put(-33,-209.7){\makebox[\linewidth]{\rule{5.7cm}{0.4pt}}}%
+\put(14, -209){\makebox[\linewidth]{\rule{17.3cm}{0.4pt}}}%
+\put(20, -234){\makebox[\linewidth]{\rule{16.1cm}{0.4pt}}}%
 \end{picture}\hfill}
 
 \begin{document}
@@ -46,7 +46,7 @@
 \location{Silverdale, WA}\\
 \body{
 \hspace{5mm}\textcolor{body-text-bold}{Awards: } Graduate with Honors | Distinguished Scholar | AP Scholar with Distinction | Academic\\ \hspace{22.5mm}Achievement Award\\
-\hspace{5 mm}\textcolor{body-text-bold}{Activities:} Honor Society | Key Club | ASB Senior Justice | Varsity Track | Varsity Cross Country
+\hspace{5 mm}\textcolor{body-text-bold}{Activities:} Honor Society | Key Club | ASB Senior Justice | Varsity Track | Cross Country Captain
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -96,50 +96,56 @@
 }
 \end{tightemize}
 
+\vspace{-3mm}
+\section{Skills}
+
 \renewcommand{\arraystretch}{0}
 \begin{tabularx}{\textwidth}{@{}XXl@{}@{}r@{}}
-\section{Projects} & \section{Skills}\\
-\vspace{-0.5mm}
+\runsubsection{Programming} & \runsubsection{Computer}\\
+\vspace{1mm}
+\begin{tightemize}
+\body{
+\item Python, C++, Java \item Familiar with C, \LaTeX, MATLAB
+}
+\end{tightemize}
+
+&
+
+\vspace{1mm}
+\begin{tightemize}
+\body{
+\item SolidWorks, AutoCAD, Inventor, 3DSMax
+\item Git, AWS, Android Studio, Arduino
+}
+\end{tightemize}
+\end{tabularx}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\runsubsection{Automatic Pill Dispenser}\\
+\vspace{-3mm}
+\section{Projects}
+\renewcommand{\arraystretch}{0}
+\begin{tabularx}{\textwidth}{@{}XXl@{}@{}r@{}}
+\runsubsection{Automatic Pill Dispenser} & \runsubsection{Alexa Skill}\\
 \vspace{1mm}
-\location{}
+
 \technologies{Python, C++, HTML, CSS, JS}
 \begin{tightemize}
 \body{
-\item Design and create a device to dispense pills for patients
 \item Utilize \textcolor{body-text-emphasis}{Alexa Skill} to allow for user interaction along with auditory and visual reminders
-\item Simultaneously dispenses water with every set of pills
 \item Competed with this device at the China-US Young Makers Competition in Beijing, China
 }
 \end{tightemize}
 
 &
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Skills
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{-3mm}
-\runsubsection{Programming:}
-\vspace{0.5mm}
-\location{}
-\begin{tightemize}
-\body{
-\item Python, C++, Java
-\item Familiar with C, \LaTeX, MATLAB
-}
-\end{tightemize}
 \vspace{1mm}
-\runsubsection{Computer:}
+\technologies{Java, Maven, Lambda}
 \begin{tightemize}
-\vspace{0.5mm}
 \body{
-\item SolidWorks, AutoCAD, Inventor, 3DSMax
-\item Git, AWS, Android Studio, Arduino
+\item Coded a text based adventure game in \textcolor{body-text-emphasis}{Java}
+\item Compiled using \textcolor{body-text-emphasis}{Maven} and deployed on \textcolor{body-text-emphasis}{AWS Lambda}
 }
 \end{tightemize}
 \end{tabularx}
