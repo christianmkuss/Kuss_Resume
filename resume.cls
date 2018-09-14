@@ -45,10 +45,10 @@
     &
       \begin{tabular}[x]{@{}r@{}}
         \\
-        {\fontsize{11pt}{10cm}\selectfont #4}\\
-        {\fontsize{11pt}{10cm}\selectfont #5}\\
-        {\fontsize{11pt}{10cm}\selectfont #6}\\
-        {\fontsize{11pt}{10cm}\selectfont #7}
+        {\fontsize{11pt}{15cm}\selectfont #4}\\
+        {\fontsize{11pt}{15cm}\selectfont #5}\\
+        {\fontsize{11pt}{15cm}\selectfont #6}\\
+        {\fontsize{11pt}{15cm}\selectfont #7}
       \end{tabular} 
     \end{tabularx}
 }
@@ -59,12 +59,11 @@
 \scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{18pt}{26pt}\selectfont \raggedright\uppercase}{} {0em}{}
 
 % Subeadings command
-\titleformat{\subsection}{\color{subheading}
-\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{13pt}{13pt}\selectfont\bfseries\uppercase}{}{0em}{}
-\titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
-
 \newcommand{\runsubsection}[1]{\color{subheading}
 \fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{14pt}{14pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+
+% Line Across
+\newcommand{\raisedrulefill}[2][0ex]{\leaders\hbox{\rule[#1]{1pt}{#2}}\hfill}
 
 % Body command
 \newcommand{\body}[1]{\color{body-text}\raggedright\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt} \selectfont {#1\\} \normalfont}
@@ -77,13 +76,10 @@
 \fontspec[Path = fonts/raleway/]{Raleway-Italic}\fontsize{12pt}{14pt}\selectfont{#1} \normalfont\vspace{0.5mm}}
 
 % Position command
-\newcommand{\position}[1]{\color{position}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{12pt}{13pt}\selectfont {#1 } \normalfont}
+\newcommand{\position}[1]{\color{position}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{12pt}{13pt}\selectfont{#1}\normalfont}
 
 % Description command
-\newcommand{\descript}[1]{\color{descript}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{12.3pt}{14pt}\selectfont {#1\\} \normalfont}
-
-% Education-descript command
-\newcommand{\educationdescript}[1]{\color{position}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{12.3pt}{14pt}\selectfont {#1\\} \normalfont}
+\newcommand{\descript}[1]{\color{descript}\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{12.3pt}{14pt}\selectfont {#1} \normalfont}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{\fontsize{12pt}{14pt}\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}{\end{itemize}\vspace{-\topsep}\vspace{1.75 mm}}
