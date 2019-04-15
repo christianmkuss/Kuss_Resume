@@ -1,11 +1,4 @@
 \documentclass{resume}
-
-\makeatletter
-\def\@oddhead{%https://www.sharelatex.com/project/5a0fcb75e7e3011e1a888109
-\setlength\unitlength{1mm}%
-\begin{picture}(0,0)%
-\end{picture}\hfill}
-
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -13,11 +6,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \namesection{}{Christian Kuss}
-{\vspace{-6mm}\href{http://christiankuss.com}{http://christiankuss.com}}
-{\href{tel:1-360-865-6302}{360.865.6302 }\faPhoneSquare}
+{\vspace{-6mm}\href{https://christiankuss.com}{https://christiankuss.com}}
+{\href{tel:1-360-865-6302}{+1.360.865.6302 }\faPhoneSquare}
 {\href{mailto:christianmkuss@gmail.com}{christianmkuss@gmail.com }\faEnvelope}
-{\href{http://github.com/christianmkuss}{github.com/christianmkuss }\faGithubSquare}
-{\href{http://linkedin.com/in/christian-kuss}{linkedin.com/in/christian-kuss }\faLinkedinSquare}
+{\href{https://github.com/christianmkuss}{github.com/christianmkuss }\faGithubSquare}
+{\href{https://linkedin.com/in/christian-kuss}{linkedin.com/in/christian-kuss }\faLinkedinSquare}
 \vspace{-2mm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -30,31 +23,33 @@
 \location{Boston, MA}\\
 \body{
 \hspace{5 mm}\textcolor{body-text-bold}{GPA:} 3.61 | \textcolor{body-text-bold}{Expected Graduation Date:} May 2022\\
-\hspace{5 mm}\textcolor{body-text-bold}{Relevant Courses:} Embedded Design | Circuits and Signals | Calculus 3 | Discrete Structures
+\hspace{5 mm}\textcolor{body-text-bold}{Relevant Courses:} Embedded Design | Circuits and Signals | Networks | Discrete Structures
 }
 \body{
 \hspace{5 mm}\textcolor{body-text-bold}{Activities:} NU IEEE | Northeastern Unmanned Aerial Vehicles
 }
-\vspace{3mm}
-\hspace{0mm}\runsubsection{Central Kitsap High School} | \position{Graduated In June 2017}\\
-\vspace{0.5 mm}
-\location{Silverdale, WA}\\
-\body{
-\hspace{5mm}\textcolor{body-text-bold}{Awards: } Graduate with Honors | Distinguished Scholar | AP Scholar with Distinction | Academic\\ \hspace{22.5mm}Achievement Award\\
-\hspace{5 mm}\textcolor{body-text-bold}{Activities:} Honor Society | Key Club | ASB Senior Justice | Varsity Track | Cross Country Captain
-}
-\vspace{-2mm}
+\vspace{1mm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience\hspace{2.5mm}\texorpdfstring{\raisedrulefill[0.6ex]{0.25pt}}{}}
 
-\runsubsection{Northeastern ECE Research} | \position{Research Assistant} \hfill\descript{Sep '18 - Present}\\
+\runsubsection{TableCheck Inc.} | \position{Software Engineering Intern} \hfill\descript{Jan '19 - Present}\\
+\location{Tokyo, Japan}
+\begin{tightemize}
+    \body{
+    \item Implementing a low-level "rescue service" should the main app fail
+    \item Developing a payment platform \textcolor{body-text-emphasis}{microservice} that adapts\\ depending on the payment provider
+    \item Writing and performing detailed test cases using \textcolor{body-text-emphasis}{RSpec}
+    }
+\end{tightemize}
+
+\runsubsection{Northeastern ECE Research} | \position{Research Assistant} \hfill\descript{Sep '18 - Dec '18}\\
 \location{Boston, MA}
 \begin{tightemize}
 \body{
-\item Developing a mobile application using \textcolor{body-text-emphasis}{React Native} to provide a\\ \textcolor{body-text-emphasis}{user interface} for reading from an Alzheimer's detection sensor
+\item Developed a mobile application using \textcolor{body-text-emphasis}{React Native} to provide a\\ \textcolor{body-text-emphasis}{user interface} for reading from an Alzheimer's detection sensor
 }
 \end{tightemize}
 
@@ -74,14 +69,6 @@
 }
 \end{tightemize}
 
-\runsubsection{Seabeck Conference Center} | \position{Server} \hfill\descript{Apr '18 - Aug '18}\\
-\location{Seabeck, WA}
-\begin{tightemize}
-\body{
-\item Prepared and coordinated food service while maintaining guest relations
-}
-\end{tightemize}
-
 \runsubsection{Northeastern ECE Department} | \position{Computer Systems Assistant} \hfill\descript{Jan '18 - Apr '18}\\
 \location{Boston, MA}
 \begin{tightemize}
@@ -89,7 +76,7 @@
 \item Reconfigured computers for use and conducted general computer maintenance
 }
 \end{tightemize}
-\vspace{-3mm}
+\vspace{-1mm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Skills
@@ -100,19 +87,20 @@
 \begin{tabularx}{\textwidth}{@{}XXl@{}@{}r@{}}
 \runsubsection{Programming} & \runsubsection{Computer}\\
 \vspace{1mm}
+% Programming
 \begin{tightemize}
 \body{
-\item Python, C++, Java \item Familiar with C, C\#, \LaTeX, MATLAB
+\item Python, C++, Java, Ruby/Rails
+\item Familiar with C, C\#, \LaTeX, MATLAB, Elixir
 }
 \end{tightemize}
-
 &
-
 \vspace{1mm}
+% Computer
 \begin{tightemize}
 \body{
 \item SolidWorks, AutoCAD, Inventor, 3DSMax
-\item Git, AWS, Arduino, Unity
+\item AWS, Arduino, Docker, Git, Unity
 }
 \end{tightemize}
 \end{tabularx}
@@ -121,7 +109,7 @@
 %     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{-3mm}
+\vspace{-1mm}
 \section{Projects\hspace{2.5mm}\texorpdfstring{\raisedrulefill[0.6ex]{0.25pt}}{}}
 \renewcommand{\arraystretch}{0}
 \begin{tabularx}{\linewidth}{@{}XXl@{}@{}r@{}}
