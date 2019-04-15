@@ -1,2 +1,2 @@
-# my-resume
-My resume written in Latex using sharelatex.com
+# Kuss Resume
+My resume written in Latex (specifically LuaTeX)

@@ -15,6 +15,7 @@
 \usepackage{titlesec}
 \usepackage{fontawesome}
 \usepackage{tabularx}
+\usepackage{fontspec}
 
 % Color definitions
 \definecolor{body-text}{HTML}{505050}
@@ -29,9 +30,9 @@
 \definecolor{education}{HTML}{333333}
 
 % Set main fonts
-\defaultfontfeatures{Mapping=tex-text}
+\defaultfontfeatures{Ligatures=TeX}
 \setmainfont[Color=body-text, Path = fonts/lato/]{Lato-Reg}
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
+\setsansfont[Scale=MatchLowercase, Ligatures=TeX, Path = fonts/raleway/]{Raleway-ExtraLight}
 
 % Name command
 \newcommand{\namesection}[7]{
