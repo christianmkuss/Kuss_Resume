@@ -84,3 +84,7 @@
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{\fontsize{12pt}{14pt}\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}{\end{itemize}\vspace{-\topsep}\vspace{1.75 mm}}
+
+% Letter Commands
+\newcommand{\letterintro}[1]{\vspace{10mm}\color{body-text}\raggedright\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{13pt}{14pt} \selectfont {#1\\} \normalfont \vspace{5mm}}
+\newenvironment{letter}{\fontsize{20pt}{20pt}\vspace{-\topsep}\vspace{-\topsep}\vspace{1.75 mm}}
