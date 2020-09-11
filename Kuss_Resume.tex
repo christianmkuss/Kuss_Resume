@@ -16,14 +16,14 @@
     %     EDUCATION
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    \section{Education\hspace{2.5mm}\texorpdfstring{\raisedrulefill[0.6ex]{0.25pt}}{}}
+    \section{Education\hspace{2.5mm}\texorpdfstring{\raisedrulefill[0.6ex]{0.25pt}}{}}\label{sec:education}
     \vspace{1mm}
     \hspace{-5mm}\runsubsection{Northeastern University} |
     \position{Candidate for BS in Electrical \& Computer Engineering}\\
     \vspace{0.5 mm}
     \location{Boston, MA}\\
     \body{
-    \hspace{5 mm}\textcolor{body-text-bold}{GPA:} 3.56 | \textcolor{body-text-bold}{Expected Graduation Date:} Dec 2021 | Fourth Year\\
+    \hspace{5 mm}\textcolor{body-text-bold}{GPA:} 3.44 | \textcolor{body-text-bold}{Expected Graduation Date:} Dec 2021 | Fourth Year\\
     \hspace{5 mm}\textcolor{body-text-bold}{Relevant Courses:} Machine Learning | Electromagnetics | Object Oriented Design | Embedded Design
     }
     \body{
@@ -35,7 +35,7 @@
     %     Skills
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    \section{Skills\hspace{2.5mm}\texorpdfstring{\raisedrulefill[0.6ex]{0.25pt}}{}}
+    \section{Skills\hspace{2.5mm}\texorpdfstring{\raisedrulefill[0.6ex]{0.25pt}}{}}\label{sec:skills}
     \vspace{1mm}
     \renewcommand{\arraystretch}{0}
     \begin{tabularx}{\textwidth}{@{}XXl@{}@{}r@{}}
@@ -44,7 +44,7 @@
         % Programming
         \begin{tightemize}
             \body{
-            \item Python, C++, Java, Ruby/Rails, Javascript
+            \item Python, C++, Java, C\#, Ruby/Rails, Javascript
             \item Familiar with C, \LaTeX, MATLAB, Elixir, React
             }
         \end{tightemize}
@@ -53,7 +53,7 @@
         % Computer
         \begin{tightemize}
             \body{
-            \item SolidWorks, AutoCAD, 3DSMax
+            \item Unity, SolidWorks, AutoCAD, 3DSMax
             \item AWS, Arduino, Docker, Git
             }
         \end{tightemize}
@@ -63,23 +63,25 @@
     %     EXPERIENCE
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    \section{Experience\hspace{2.5mm}\texorpdfstring{\raisedrulefill[0.6ex]{0.25pt}}{}}
+    \section{Experience\hspace{2.5mm}\texorpdfstring{\raisedrulefill[0.6ex]{0.25pt}}{}}\label{sec:experience}
     \vspace{1mm}
+    \runsubsection{Amazon Robotics} | \position{Software Engineering Co-op} \hfill\descript{Jan '20 - Jun '20}\\
+    \location{North Reading, MA}| \technologies{Java, C\#}
+    \begin{tightemize}
+        \body{
+        \item Developed an image generator using \textcolor{body-text-emphasis}{C\#} and \textcolor{body-text-emphasis}{Unity} for creating a machine learning training set
+        \item Implemented feature requests into custom \textcolor{body-text-emphasis}{gradle} CLI package
+        \item Created standalone service using \textcolor{body-text-emphasis}{AWS Batch} with GPU enabled docker images
+        }
+    \end{tightemize}
+
     \runsubsection{TableCheck Inc.} | \position{Software Engineering Co-op} \hfill\descript{Jan '19 - Jul '19}\\
     \location{Tokyo, Japan}| \technologies{Ruby, Rails, Elixir}
     \begin{tightemize}
         \body{
         \item Implemented a low-level "rescue service" using \textcolor{body-text-emphasis}{React} and \textcolor{body-text-emphasis}{DynamoDB}
-        \item Developed a payment platform \textcolor{body-text-emphasis}{microservice} in \textcolor{body-text-emphasis}{Ruby} that \\adapts to third party API's
+        \item Developed a payment platform \textcolor{body-text-emphasis}{microservice} in \textcolor{body-text-emphasis}{Ruby} that adapts to third party API's
         \item Wrote and performed detailed test cases using \textcolor{body-text-emphasis}{RSpec}
-        }
-    \end{tightemize}
-
-    \runsubsection{Northeastern ECE Research} | \position{Research Assistant} \hfill\descript{Sep '18 - Dec '18}\\
-    \location{Boston, MA}| \technologies{Arduino, React Native}
-    \begin{tightemize}
-        \body{
-        \item Developed a mobile application using \textcolor{body-text-emphasis}{React Native} for reading from \\an Alzheimer's detection sensor over Bluetooth
         }
     \end{tightemize}
 
@@ -87,7 +89,7 @@
     \location{Boston, MA}
     \begin{tightemize}
         \body{
-        \item Taught primary school children \textcolor{body-text-emphasis}{engineering design} and \textcolor{body-text-emphasis}{Arduino} to \\build Sumo Bots for competition
+        \item Taught primary school children \textcolor{body-text-emphasis}{engineering design} and \textcolor{body-text-emphasis}{Arduino} to build Sumo Bots
         }
     \end{tightemize}
 
@@ -104,31 +106,31 @@
     %     PROJECTS
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    \section{Projects\hspace{2.5mm}\texorpdfstring{\raisedrulefill[0.6ex]{0.25pt}}{}}
+    \section{Projects\hspace{2.5mm}\texorpdfstring{\raisedrulefill[0.6ex]{0.25pt}}{}}\label{sec:projects}
     \vspace{1mm}
     \renewcommand{\arraystretch}{0}
     \begin{tabularx}{\linewidth}{@{}XXl@{}@{}r@{}}
-        \runsubsection{Automatic Pill Dispenser} \hfill\descript{In Progress}& \runsubsection{Wiimote Robotic Arm}\hfill\descript{Fall '18}\\
+        \runsubsection{SmartyPill} \hfill\descript{In Progress}& \runsubsection{Retro Eye}\hfill\descript{Oct '19}\\
         \vspace{1mm}
 
         \technologies{Python, Arduino}
         \begin{tightemize}
             \body{
-            \item Eliminates error in taking prescriptions by dispensing correct dosages with a small amount of water
+            \item Developing an automatic pill dispenser that eliminates error in taking prescriptions by dispensing correct dosages with water
             \item Utilize \textcolor{body-text-emphasis}{Alexa Skill} to allow for user interaction along with auditory and visual reminders
-            \item Competed with this device at the China-US Young Makers Competition in Beijing, China
+            \item Incorporated as L.L.C. in July 2020
             }
         \end{tightemize}
 
         &
 
         \vspace{1mm}
-        \technologies{C++, Simulink}
+        \technologies{Python}
         \begin{tightemize}
             \body{
-            \item Programmed \textcolor{body-text-emphasis}{FPGAs} using \textcolor{body-text-emphasis}{Simulink} to take in commands over bluetooth from a Wii remote
-            \item Moved corresponding servos depending on button presses
-            \item Completed as part of the course Embedded Design
+            \item Created a tetris game that is controlled using \textcolor{body-text-emphasis}{computer vision}
+            \item Implemented connection with \textcolor{body-text-emphasis}{Google Cloud Vision API} to determine eye location
+            \item Developed an \textcolor{body-text-emphasis}{API} to connect game dynamics to eye positioning
             }
         \end{tightemize}
     \end{tabularx}
