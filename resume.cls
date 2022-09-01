@@ -67,7 +67,7 @@
 \newcommand{\raisedrulefill}[2][0ex]{\leaders\hbox{\rule[#1]{1pt}{#2}}\hfill}
 
 % Body command
-\newcommand{\body}[1]{\color{body-text}\raggedright\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{14pt} \selectfont {#1\\} \normalfont}
+\newcommand{\body}[1]{\color{body-text}\raggedright\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{11pt}{13pt} \selectfont {#1\\} \normalfont}
 
 % Location command
 \newcommand{\location}[1]{\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Italic} \fontsize{12pt}{12pt}\selectfont {#1} \normalfont}
@@ -80,7 +80,7 @@
 \newcommand{\position}[1]{\color{position}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{12pt}{13pt}\selectfont{#1}\normalfont}
 
 % Description command
-\newcommand{\descript}[1]{\color{descript}\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{12.3pt}{14pt}\selectfont {#1} \normalfont}
+\newcommand{\descript}[1]{\color{descript}\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{11.3pt}{13pt}\selectfont {#1} \normalfont}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{\fontsize{12pt}{14pt}\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}{\end{itemize}\vspace{-\topsep}\vspace{1.75 mm}}
